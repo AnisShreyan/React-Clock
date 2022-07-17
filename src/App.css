@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2EACDE;
+}
+
+.container {
+    width: 80vw;
+    height: 90vh;
+    margin: 5vh auto;
+}
+
+.clockHead {
+    height: 20vh;
+    width: 75vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.clock-boxes {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+#clock {
+    line-height: 150px;
+    font-family: 'Inter', sans-serif;
+    font-size: 140px;
+    height: 150px;
+    width: 400px;
+    color: white;
+}
+
+.clockBody {
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 190px;
+}
